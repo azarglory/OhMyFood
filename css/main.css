@@ -162,6 +162,21 @@
 .restaurant_icon{ 
     position: relative;
     padding-right: 1em;
+
+}
+
+.full_heart{
+    opacity: 0;
+    position: absolute;
+    left: 0;
+}
+
+.full_heart:hover{
+    transition: 0.5s;
+    opacity: 100%;
+    background: linear-gradient(180deg, #FF79DA, #9356DC);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 
 .restaurant_icon i{
