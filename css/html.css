@@ -1,5 +1,11 @@
-.title{
+.main_title{
     font-family: Shrikhand;
+}
+
+.title{
+    margin-left: 1em;
+    font-size: 1.5em;
+    margin-bottom: 2em;
 }
 
 .font_bold{
@@ -12,6 +18,11 @@
 
 body{
     margin-top: 1em;
+}
+
+.link_text{
+    color: black;
+    text-decoration: none;
 }
 
 @font-face {

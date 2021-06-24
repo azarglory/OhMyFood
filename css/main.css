@@ -49,6 +49,7 @@
     color: white;
     padding: 0.5em;
     background: linear-gradient(180deg, #FF79DA, #9356DC);
+    cursor: pointer;
 }
 
 /* Fonctionnement */
@@ -61,17 +62,111 @@
 .operation h2{
     font-size: 1.5em;
     margin-bottom: 2em;
+    margin-left: 1em;
+}
+
+.operation_list{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
 }
 
 .operation_thumbnail{
-    position: relative;
-    margin-left: 1em;
-    margin-right: 0.5em;
+    display: flex;
+    justify-content: left;
+    margin-bottom: 1em;
     background-color: #f2f2f2;
-    padding: 1em;
+    margin-right: 2em;
+    margin-left: 2em;
     border-radius: 1em;
+    height: 4em;
+    align-items: center;
+    margin-bottom: 2em;
+    width: 100%;
 }
 
 .number{
-    margin: -1px;
+    background-color: #9356DC;
+    height: 1.5em;
+    width: 1.5em;
+    border-radius: 100%;
+    margin-left: -0.75em;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.operation_icon{
+    margin-left: 1em;
+    margin-right: 1em;
+    color: #4e4e4e8a;
+}
+
+.operation_text{
+    font-size: 1em;
+}
+
+
+
+/* Restaurant */
+
+.restaurant{
+    background-color: #f2f2f2;
+    padding-bottom: 5em;
+}
+
+.restaurant_title{
+    padding-top: 1em;
+}
+
+/* Restaurant Thumbnail */
+
+.restaurant_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-left: 2em;
+    margin-right: 2em;
+    gap: 1em;
+    grid-template-areas: 
+        "res1 res2"
+        "res3 res4";
+    overflow: hidden;
+}
+
+.restaurant_image{
+    width: 100%;
+    height: 15em;
+    object-fit: cover;
+    align-items: center;
+    vertical-align: middle;
+    border-radius: 1em 1em 0 0;
+}
+
+.restaurant_legend{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+    background-color: #fff;
+    height: 4em;
+    border-radius: 0 0 1em 1em;
+}
+
+.restaurant_text h3{
+    padding-bottom: 0.2em;
+}
+
+.restaurant_icon{ 
+    position: relative;
+    padding-right: 1em;
+}
+
+.restaurant_icon i{
+    right: 0;
+    top: 0;
+    font-size: 1.5em;
+}
+
