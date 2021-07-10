@@ -375,7 +375,7 @@ header .return {
     transform: scale(1);
   }
 }
-@media only screen and (min-width: 2560px) {
+@media screen and (max-width: 2560px) {
   /* Menu */
   .Menu {
     margin-top: -7.2rem;
@@ -456,7 +456,7 @@ header .return {
 
   /* Location */
 }
-@media only screen and (min-width: 1440px) {
+@media screen and (max-width: 1440px) {
   /* Menu */
   .menu_list {
     display: flex;
@@ -480,6 +480,18 @@ header .return {
   }
 
   /* Menu */
+}
+@media screen and (max-width: 1024px) {
+  .operation_list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .restaurant_container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
 }
 header {
   text-align: center;
