@@ -119,29 +119,23 @@ main{
     background-color: #f2f2f2;
     padding-bottom: 2rem;
     h2{
-        margin: 0 15rem 0 15rem;
+        margin: 0 15rem 2rem 15rem;
         padding-top: 2rem;
         font-size: 1.5rem;
         font-family: $p-bold;
     }
-    .restaurant_container{
-        margin: 2rem 15rem 2rem 15rem;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        gap: 2rem 2rem;
-        grid-template-areas: "res1 res2"
-                             "res3 res4";
-    }
+
     .restaurant_thumbnail{
         height: 20rem;
         background-color: #fff;
         border-radius: 1.5rem;
         position: relative;
+        margin-bottom: 1rem;
     }
     img{
         width: 100%;
         height: 15rem;
+        max-height: 15rem;
         object-fit: cover;
         border-radius: 1.5rem 1.5rem 0 0;
     }

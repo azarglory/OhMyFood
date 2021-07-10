@@ -1,11 +1,21 @@
 @media screen and (max-width: 1024px){
+    /* Index */
+    .operation{
+        margin: 2rem 2rem 0 2rem !important;
+    }
     .operation_list{
         display: flex;
         flex-direction: column;
     }
+
     .restaurant_container{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
+    .restaurant{
+        h2{
+            margin: 0 2rem 2rem 2rem !important;
+        }
+    }
+    /* Index */
 }

@@ -70,11 +70,15 @@ header{
 /* Titre Menu */
 
 /* Grid Menu */
+.restaurant_container{
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+}
 
 .menu_list{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem 0 1rem;
 }
 /* Grid Menu */
 
@@ -134,12 +138,7 @@ header{
     }
 }
 
-.menu_1, .note{
-    padding-left: 1rem;
-}
-.menu_3, .note{
-    padding-right: 1rem;
-}
+
 /* Menu Item */
 /* Menu Header */
 
