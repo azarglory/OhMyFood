@@ -1,0 +1,187 @@
+
+
+/*Header*/
+header{
+    position: relative;
+    .return{
+        position: absolute;
+        left:2rem;
+        color: black;
+    }
+}
+/* Header */
+
+/* Image */
+
+.menu_image{
+    height: 30rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Image */
+/* Base Menu */
+
+.Menu{
+    margin: -5rem 15rem 0 15rem;
+    background-color: #f2f2f2;
+    position: relative;
+    border-radius: 1.5rem 1.5rem 0 0 ;
+    max-width: 100%;
+    overflow: hidden;
+}
+/* Base Menu */
+
+/* Titre Menu */
+.menu_title{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem 1rem 2rem;
+    font-size: 1.5rem;
+    font-family: $p-title;
+    .restaurant_icon{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    i{
+        position: absolute;
+    }
+    .full_heart{
+        opacity: 0;
+    }
+    .restaurant_icon:hover{
+        animation: all;
+        .far{
+            opacity: 0.5;
+        }
+        .full_heart{
+            transition: 0.8s;
+            opacity: 1;
+            background: linear-gradient(158deg, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 100%);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+        }
+    }
+}
+
+/* Titre Menu */
+
+/* Grid Menu */
+
+.menu_list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+/* Grid Menu */
+
+/* Titre Menu */
+
+.menu_base{
+    h3{
+        font-size: 1.2rem;
+        padding-left: 2rem;
+    }
+    .title_menu_underline{
+        margin-left: 2rem;
+        margin-bottom: 1rem;
+        background-color: $tertiary;
+        width: 3rem;
+        height: 0.2rem;
+    }
+}
+
+/* Titre Menu*/
+
+/* Menu Item */
+
+.menu_item{
+    display: flex;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 1rem;
+    max-height: 2rem;
+    overflow: hidden;
+
+    .menu_header{
+        flex: 1;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    .menu_prix{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        height: 2rem;
+        padding-left: 0.5rem;
+    }
+    .menu_icon{
+        background-color: $tertiary;
+        height: 4rem;
+        width: 4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: -1rem -5rem -1rem 1rem;
+        font-size: 1.5rem;
+        color: white;
+        transition-duration: .5s;
+    }
+    i{
+        transform: rotate(180deg);
+        transition-duration: .5s;
+    }
+}
+
+.menu_1{
+    padding-left: 1rem;
+}
+.menu_3{
+    padding-right: 1rem;
+}
+/* Menu Item */
+/* Menu Header */
+
+.menu_header{
+    width: 80%;
+    h4{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        font-family: $p-bold;
+    }
+    p{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        
+    }
+}
+
+/* Menu Header */
+/* Menu Icon */
+.menu_item:hover{
+    .menu_icon{
+        margin: -1rem -1rem -1rem 1rem;
+    }
+    i{
+        transform: rotate(0);
+    }
+}
+/* Menu Icon */
+
+/* Boutton */
+
+.menu_button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+/* Menu Animation */
