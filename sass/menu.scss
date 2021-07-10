@@ -23,7 +23,7 @@ header{
 /* Base Menu */
 
 .Menu{
-    margin: -5rem 15rem 0 15rem;
+    margin: -5rem 15% 0 15%;
     background-color: #f2f2f2;
     position: relative;
     border-radius: 1.5rem 1.5rem 0 0 ;
@@ -134,10 +134,10 @@ header{
     }
 }
 
-.menu_1{
+.menu_1, .note{
     padding-left: 1rem;
 }
-.menu_3{
+.menu_3, .note{
     padding-right: 1rem;
 }
 /* Menu Item */
@@ -252,6 +252,79 @@ header{
         transform: scale(0);
         animation: menu_appear 0.9s;
         animation-delay: 0.8s;
+        animation-fill-mode: both;
+    }
+}
+
+/* Menu La note enchantée */
+
+.note_1{
+    .menu_item_1{
+        transform: scale(0);
+        animation: menu_appear 0.9s;
+        animation-fill-mode: both;
+    }
+
+    .menu_item_2{
+        transform: scale(0);
+        animation: menu_appear 0.9s;
+        animation-delay: 0.1s;
+        animation-fill-mode: both;
+    }
+    .menu_item_3{
+        transform: scale(0);
+        animation: menu_appear 0.9s;
+        animation-delay: 0.2s;
+        animation-fill-mode: both;
+    }
+    .menu_item_4{
+        transform: scale(0);
+        animation: menu_appear 0.9s;
+        animation-delay: 0.3s;
+        animation-fill-mode: both;
+    }
+}
+
+.note_2{
+    .menu_item_1{
+        transform: scale(0);
+        animation: menu_appear 0.9s;
+        animation-fill-mode: both;
+        animation-delay: 0.4s;
+    }
+
+    .menu_item_2{
+        transform: scale(0);
+        animation: menu_appear 0.9s;
+        animation-delay: 0.5s;
+        animation-fill-mode: both;
+    }
+    .menu_item_3{
+        transform: scale(0);
+        animation: menu_appear 0.9s;
+        animation-delay: 0.6s;
+        animation-fill-mode: both;
+    }
+}
+
+.note_3{
+    .menu_item_1{
+        transform: scale(0);
+        animation: menu_appear 0.9s;
+        animation-fill-mode: both;
+        animation-delay: 0.7s;
+    }
+
+    .menu_item_2{
+        transform: scale(0);
+        animation: menu_appear 0.9s;
+        animation-delay: 0.8s;
+        animation-fill-mode: both;
+    }
+    .menu_item_3{
+        transform: scale(0);
+        animation: menu_appear 0.9s;
+        animation-delay: 0.9s;
         animation-fill-mode: both;
     }
 }

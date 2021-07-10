@@ -1,0 +1,94 @@
+@media only screen and (min-width: 2560px){
+    
+    /* Menu */
+    .Menu{
+        margin-top: -7.2rem;
+        
+        .menu_title{
+            font-size: 2.5rem;
+            margin: 1rem;
+            .restaurant_icon{
+                margin-right: 1rem;
+            }
+        }
+
+        h3{
+            font-size: 2rem;
+        }
+
+        .menu_list{
+            font-size: 1.5rem;
+        }
+        .menu_item{
+            padding: 2rem 0 2rem 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .menu_header{
+            padding-left: 1rem;
+        }
+        .menu_prix{
+            padding-right: 1rem;
+        }
+        .menu_icon{
+            height: 6rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-right: 1rem;
+            font-size: 2rem;
+        }
+    }
+    /* Menu */
+    
+    /* Footer */
+
+    footer{
+        position: absolute;
+        bottom: 0;
+    }
+    .footer{
+        h3{
+            font-size: 1.7rem;
+        }
+        a{
+            font-size: 1.4rem;
+        }
+    }
+
+    /* Footer */
+
+    /* Index */
+        
+    /* Titre Principal */
+    h1{
+        font-size: 2.5rem;
+    }
+    /* Titre Principal */
+
+    /* Location */
+
+    .location{
+        .map_marker{
+            font-size: 1.6rem;
+        }
+        .location_text{
+            font-size: 1.6rem;
+        }
+    }
+
+    .intro{
+        h2{
+            font-size: 1.6rem;
+        }
+        p{
+            font-size: 1.5rem;
+        }
+        input{
+            font-size: 1.3rem;
+        }
+    }
+
+    /* Location */
+}
