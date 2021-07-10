@@ -29,6 +29,7 @@ header{
     border-radius: 1.5rem 1.5rem 0 0 ;
     max-width: 100%;
     overflow: hidden;
+    height: 100%;
 }
 /* Base Menu */
 
@@ -108,9 +109,6 @@ header{
 
     .menu_header{
         flex: 1;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: nowrap;
     }
     .menu_prix{
         display: flex;
@@ -132,7 +130,6 @@ header{
         transition-duration: .5s;
     }
     i{
-        transform: rotate(180deg);
         transition-duration: .5s;
     }
 }
@@ -147,18 +144,17 @@ header{
 /* Menu Header */
 
 .menu_header{
-    width: 80%;
+    
     h4{
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
-        font-family: $p-bold;
+        font-family: $p-bold;width: 80%;
     }
     p{
         overflow: hidden;
         text-overflow: ellipsis;
-        white-space: nowrap;
-        
+        white-space: nowrap;width: 80%;
     }
 }
 
@@ -169,7 +165,7 @@ header{
         margin: -1rem -1rem -1rem 1rem;
     }
     i{
-        transform: rotate(0);
+        transform: rotate(360deg);
     }
 }
 /* Menu Icon */
