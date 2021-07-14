@@ -192,20 +192,20 @@ header{
 
 .menu_1{
     .menu_item_1{
-        transform: scale(0);
-        animation: menu_appear 0.9s;
+        opacity: 0;
+        animation: menu_appear $t-menu;
         animation-fill-mode: both;
     }
 
     .menu_item_2{
-        transform: scale(0);
-        animation: menu_appear 0.9s;
+        opacity: 0;
+        animation: menu_appear $t-menu;
         animation-delay: 0.1s;
         animation-fill-mode: both;
     }
     .menu_item_3{
-        transform: scale(0);
-        animation: menu_appear 0.9s;
+        opacity: 0;
+        animation: menu_appear $t-menu;
         animation-delay: 0.2s;
         animation-fill-mode: both;
     }
@@ -213,21 +213,21 @@ header{
 
 .menu_2{
     .menu_item_1{
-        transform: scale(0);
-        animation: menu_appear 0.9s;
+        opacity: 0;
+        animation: menu_appear $t-menu;
         animation-fill-mode: both;
         animation-delay: 0.3s;
     }
 
     .menu_item_2{
-        transform: scale(0);
-        animation: menu_appear 0.9s;
+        opacity: 0;
+        animation: menu_appear $t-menu;
         animation-delay: 0.4s;
         animation-fill-mode: both;
     }
     .menu_item_3{
-        transform: scale(0);
-        animation: menu_appear 0.9s;
+        opacity: 0;
+        animation: menu_appear $t-menu;
         animation-delay: 0.5s;
         animation-fill-mode: both;
     }
@@ -235,21 +235,21 @@ header{
 
 .menu_3{
     .menu_item_1{
-        transform: scale(0);
-        animation: menu_appear 0.9s;
+        opacity: 0;
+        animation: menu_appear $t-menu;
         animation-fill-mode: both;
         animation-delay: 0.6s;
     }
 
     .menu_item_2{
-        transform: scale(0);
-        animation: menu_appear 0.9s;
+        opacity: 0;
+        animation: menu_appear $t-menu;
         animation-delay: 0.7s;
         animation-fill-mode: both;
     }
     .menu_item_3{
-        transform: scale(0);
-        animation: menu_appear 0.9s;
+        opacity: 0;
+        animation: menu_appear $t-menu;
         animation-delay: 0.8s;
         animation-fill-mode: both;
     }
@@ -259,26 +259,26 @@ header{
 
 .note_1{
     .menu_item_1{
-        transform: scale(0);
-        animation: menu_appear 0.9s;
+        opacity: 0;
+        animation: menu_appear $t-menu;
         animation-fill-mode: both;
     }
 
     .menu_item_2{
-        transform: scale(0);
-        animation: menu_appear 0.9s;
+        opacity: 0;
+        animation: menu_appear $t-menu;
         animation-delay: 0.1s;
         animation-fill-mode: both;
     }
     .menu_item_3{
-        transform: scale(0);
-        animation: menu_appear 0.9s;
+        opacity: 0;
+        animation: menu_appear $t-menu;
         animation-delay: 0.2s;
         animation-fill-mode: both;
     }
     .menu_item_4{
-        transform: scale(0);
-        animation: menu_appear 0.9s;
+        opacity: 0;
+        animation: menu_appear $t-menu;
         animation-delay: 0.3s;
         animation-fill-mode: both;
     }
@@ -286,21 +286,21 @@ header{
 
 .note_2{
     .menu_item_1{
-        transform: scale(0);
-        animation: menu_appear 0.9s;
+        opacity: 0;
+        animation: menu_appear $t-menu;
         animation-fill-mode: both;
         animation-delay: 0.4s;
     }
 
     .menu_item_2{
-        transform: scale(0);
-        animation: menu_appear 0.9s;
+        opacity: 0;
+        animation: menu_appear $t-menu;
         animation-delay: 0.5s;
         animation-fill-mode: both;
     }
     .menu_item_3{
-        transform: scale(0);
-        animation: menu_appear 0.9s;
+        opacity: 0;
+        animation: menu_appear $t-menu;
         animation-delay: 0.6s;
         animation-fill-mode: both;
     }
@@ -308,21 +308,21 @@ header{
 
 .note_3{
     .menu_item_1{
-        transform: scale(0);
-        animation: menu_appear 0.9s;
+        opacity: 0;
+        animation: menu_appear $t-menu;
         animation-fill-mode: both;
         animation-delay: 0.7s;
     }
 
     .menu_item_2{
-        transform: scale(0);
-        animation: menu_appear 0.9s;
+        opacity: 0;
+        animation: menu_appear $t-menu;
         animation-delay: 0.8s;
         animation-fill-mode: both;
     }
     .menu_item_3{
-        transform: scale(0);
-        animation: menu_appear 0.9s;
+        opacity: 0;
+        animation: menu_appear $t-menu;
         animation-delay: 0.9s;
         animation-fill-mode: both;
     }
@@ -330,9 +330,9 @@ header{
 
 @keyframes menu_appear {
     0%{
-        transform: scale(0);
+        opacity: 0;
     }
     100%{
-        transform: scale(1);
+        opacity: 1;
     }
 }
