@@ -1,13 +1,7 @@
 @import "reset.scss";
 @import "base.scss";
 @import "menu.scss";
-@import "responsive/2560px.scss";
-@import "responsive/1440px.scss";
-@import "responsive/1024px.scss";
-@import "responsive/768px.scss";
-@import "responsive/425px.scss";
-@import "responsive/375px.scss";
-@import "responsive/320px.scss";
+@import "responsive.scss";
 
 header{
     text-align: center;

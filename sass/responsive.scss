@@ -1,0 +1,316 @@
+/* Min-Width */
+
+@media screen and (min-width: 2560px){
+    
+    /* Menu */
+    .Menu{
+        margin-top: -7.2rem;
+        
+        .menu_title{
+            font-size: 2.5rem;
+            margin: 1rem;
+            .restaurant_icon{
+                margin-right: 1rem;
+            }
+        }
+
+        h3{
+            font-size: 2rem;
+        }
+
+        .menu_list{
+            font-size: 1.5rem;
+        }
+        .menu_item{
+            padding: 2rem 0 2rem 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .menu_header{
+            padding-left: 1rem;
+        }
+        .menu_prix{
+            padding-right: 1rem;
+        }
+        .menu_icon{
+            height: 6rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-right: 1rem;
+            font-size: 2rem;
+        }
+    }
+    .menu_list{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: none;
+        gap: 1rem;
+    }
+    /* Menu */
+    
+    /* Footer */
+
+    footer{
+        position: absolute;
+        bottom: 0;
+    }
+    .footer{
+        h3{
+            font-size: 1.7rem;
+        }
+        a{
+            font-size: 1.4rem;
+        }
+    }
+
+    /* Footer */
+
+    /* Index */
+        
+    /* Titre Principal */
+    h1{
+        font-size: 2.5rem;
+    }
+    /* Titre Principal */
+
+    /* Location */
+
+    .location{
+        .map_marker{
+            font-size: 1.6rem;
+        }
+        .location_text{
+            font-size: 1.6rem;
+        }
+    }
+
+    .intro{
+        h2{
+            font-size: 1.6rem;
+        }
+        p{
+            font-size: 1.5rem;
+        }
+        input{
+            font-size: 1.3rem;
+        }
+    }
+    .operation ul{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    /* Location */
+}
+
+@media screen and (min-width: 1440px) {
+    /* Restaurant */
+
+
+    /* Menu */
+
+    .menu_1, .menu_2{
+        margin-right: 1rem;
+    }
+    .menu_2, .menu_3{
+        margin-left: 1rem;
+    }
+
+    .footer{
+        h3{
+            font-size: 1.2rem;
+            text-align: center;
+        }
+        a{
+            font-size: 1rem;
+        }
+    }
+
+    /* Menu */
+
+    .restaurant_container{
+        margin: 2rem 15rem 2rem 15rem;
+        display: grid !important;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 2rem 2rem;
+        grid-template-areas: "res1 res2"
+                             "res3 res4";
+    }
+    .menu_base{
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .menu_image{
+        height: 30rem;
+    }
+}
+/* Max-Width */
+
+@media screen and (max-width: 1421px) {
+    .operation_list{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1439px) {
+    .footer{
+        h3{
+            font-size: 1.2rem;
+            text-align: center;
+        }
+        a{
+            font-size: 1rem;
+        }
+    }
+}
+
+@media screen and (max-width: 1399px) {
+    .restaurant_container{
+        margin: 0 1rem 00 1rem;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    /* Index */
+    .operation{
+        margin: 2rem 2rem 0 2rem !important;
+    }
+    .operation_list{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .restaurant_container{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .restaurant{
+        h2{
+            margin: 0 2rem 2rem 2rem !important;
+        }
+    }
+    /* Index */
+}
+
+@media screen and (max-width: 713px) {
+    .footer{
+        margin: 0 0 0 0 !important;
+        h3{
+            font-size: 1.2rem;
+        }
+        i, span, a{
+            font-size: 1rem;
+        }        
+    }
+}
+
+@media screen and (max-width: 664px) {
+    .menu_header{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    /* Header */
+    header{
+        i{
+            font-size: 1.7rem;
+        }
+        a{
+            left: 1rem !important;
+        }
+    }
+    /* Header */
+    /* Footer */
+    footer{
+        justify-content: flex-start !important;
+    }
+    .footer{
+        margin: 0 0 0 0 !important;
+        h3{
+            font-size: 1.2rem;
+        }
+        i, span, a{
+            font-size: 1rem;
+        }        
+    }
+    /* Footer */
+
+    /* Intro */
+
+    .intro_text{
+        margin: 0 2rem 0 2rem;
+    }
+
+    /* Restaurant */
+    .restaurant{
+        a{
+            height: 12rem !important;
+        }
+        img{
+            height: 8rem !important;
+        }
+        .restaurant_legend{
+            margin-top: 0.5rem !important;
+            h3{
+                font-size: 1rem;
+            }
+            span{
+                font-size: 0.9rem;
+                padding-bottom: 1rem;
+            }
+            i{
+                font-size: 1.6rem;
+                transform: translate(0, -50%) ;
+            }
+        }
+    }
+    /* Restaurant */
+
+    /* Operation */
+
+    .operation{
+        li{
+            width: 95%;        
+        }
+    }
+    .operation span, .operation i{
+        font-size: 0.8rem;
+    }
+    /* Operation */
+
+    /* Menu */
+
+    .Menu{
+        margin-left: 0;
+        margin-right: 0;
+        h2{
+            font-size: 1.2rem;
+            padding-bottom: 1rem;
+        }
+
+        .menu_header{
+            font-size: 0.9rem;
+            width: 50%;
+            p{
+                width: 90%;
+            }
+            h4{
+                width: 90%;
+            }
+        }
+        .menu_button{
+            padding: 2rem 0;
+        }
+    }
+
+    /* Menu */
+
+}
