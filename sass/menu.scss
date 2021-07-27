@@ -148,12 +148,14 @@ header{
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
-        font-family: $p-bold;width: 80%;
+        font-family: $p-bold;
+        width: 80%;
     }
     p{
         overflow: hidden;
         text-overflow: ellipsis;
-        white-space: nowrap;width: 80%;
+        white-space: nowrap;
+        width: 80%;
     }
 }
 

@@ -391,6 +391,8 @@ header .return {
   }
   .Menu .menu_list {
     font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
   }
   .Menu .menu_item {
     padding: 2rem 0 2rem 0;
@@ -400,6 +402,13 @@ header .return {
   }
   .Menu .menu_header {
     padding-left: 1rem;
+    width: 80%;
+  }
+  .Menu .menu_header p {
+    width: 90%;
+  }
+  .Menu .menu_header h4 {
+    width: 90%;
   }
   .Menu .menu_prix {
     padding-right: 1rem;
@@ -501,12 +510,23 @@ header .return {
     margin-right: 0;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 732px) {
   .menu_image {
     height: 30rem;
   }
 }
 /* Max-Width */
+@media screen and (max-width: 2559px) {
+  .Menu h3 {
+    font-size: 1.6rem;
+  }
+  .Menu .menu_title {
+    font-size: 2.2rem;
+  }
+  .Menu .menu_list {
+    font-size: 1.3rem;
+  }
+}
 @media screen and (max-width: 1421px) {
   .operation_list {
     display: flex;
@@ -548,6 +568,23 @@ header .return {
   }
 
   /* Index */
+}
+@media screen and (max-width: 731px) {
+  .Menu .menu_title {
+    font-size: 1.5rem;
+  }
+  .Menu h3 {
+    font-size: 1.3rem;
+  }
+  .Menu .menu_header h4 {
+    font-size: 1rem;
+  }
+  .Menu .menu_header p {
+    font-size: 1rem;
+  }
+  .Menu .menu_prix {
+    font-size: 1rem;
+  }
 }
 @media screen and (max-width: 713px) {
   .footer {
@@ -774,6 +811,7 @@ main input:hover {
   border-radius: 1.5rem;
   position: relative;
   margin-bottom: 1rem;
+  box-shadow: 0rem 0rem 10px 5px #dadada;
 }
 .restaurant img {
   width: 100%;

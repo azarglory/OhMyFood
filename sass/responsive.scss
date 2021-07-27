@@ -20,6 +20,8 @@
 
         .menu_list{
             font-size: 1.5rem;
+            display: flex;
+            flex-direction: column;
         }
         .menu_item{
             padding: 2rem 0 2rem 0;
@@ -29,6 +31,13 @@
         }
         .menu_header{
             padding-left: 1rem;
+            width: 80%;
+            p{
+                width: 90%;
+            }
+            h4{
+                width: 90%;
+            }
         }
         .menu_prix{
             padding-right: 1rem;
@@ -145,12 +154,26 @@
     }
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 732px){
     .menu_image{
         height: 30rem;
     }
 }
 /* Max-Width */
+
+@media screen and (max-width: 2559px){
+    .Menu{
+        h3{
+            font-size: 1.6rem;
+        }
+        .menu_title{
+            font-size: 2.2rem;
+        }
+        .menu_list{
+            font-size: 1.3rem;
+        }
+    }
+}
 
 @media screen and (max-width: 1421px) {
     .operation_list{
@@ -197,6 +220,28 @@
         }
     }
     /* Index */
+}
+
+@media screen and (max-width: 731px) {
+    .Menu{
+        .menu_title{
+            font-size: 1.5rem;
+        }
+        h3{
+            font-size: 1.3rem;
+        }
+        .menu_header{
+            h4{
+                font-size: 1rem;
+            }
+            p{
+                font-size: 1rem;
+            }
+        }
+        .menu_prix{
+            font-size: 1rem;
+        }
+    }
 }
 
 @media screen and (max-width: 713px) {
